@@ -1,0 +1,60 @@
+/* Hero section */
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6.5rem;
+}
+.hero_text{
+    display:block;
+    padding: 2.75rem 7.5rem 0 0;
+}
+.hero_title{
+    margin: 0 0 0.75rem 0;
+}
+.hero_text, .hero_subtitle{
+    font-weight: 600;
+}
+.hero_subtitle{
+    margin: 0 0 2rem 0;
+    font-weight: var(--body-highlight-font-weight);
+}
+.hero_subtitle span{
+    color: var(--red-highlight);
+
+}
+.adress{
+    width: 71rem;
+    margin: 14rem auto 4.5rem auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.adress_gallery{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3.5rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.savoir-faire{
+    margin: 2.25rem auto 4rem auto;
+    width: 72.375rem;
+height: 6.25rem;
+flex-shrink:0;}
+
+.socials{
+    margin-left: auto;
+    margin-right: auto;
+    width: 55rem;
+}
+.socials-gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+}
+.contact{
+    margin: 4.5rem 12rem;
+    text-align: center;
+}

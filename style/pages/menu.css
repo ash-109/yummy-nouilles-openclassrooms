@@ -1,0 +1,24 @@
+
+/* .appBar__navItem:nth-child(2) {
+  text-decoration: underline var(--red-highlight);
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.188rem;
+} */
+.container{
+text-align: center;
+margin: 0 auto ;
+}
+.container_content {
+  background: var(--white);
+  width: 70.625rem;
+  height: 100rem;
+  margin: 0 auto;
+}
+.container_text{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.container_text p span{
+  color: var(--red-highlight);
+}

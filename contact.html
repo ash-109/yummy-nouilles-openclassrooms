@@ -4,26 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/Logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style/main.css">
     <title>Yummy Nouilles | Contact</title>
   </head>
+  <style>
+    .appBar__navItem:nth-child(3) {
+text-decoration: underline var(--red-highlight);
+text-underline-offset: 0.25rem;
+text-decoration-thickness: 0.188rem;}
+     </style>
   <body>
-    <header>
+    <header class="appBar">
       <img
         src="assets/Logo.svg"
         width="72px"
         height="72px"
         alt="Logo Yummy Nouilles"
+        class="appBar__icon"
       />
-      <nav>
-        <a href="index.html">Accueil</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
+      <nav class="appBar__nav">
+        <a class="appBar__navItem" href="index.html">Accueil</a>
+        <a class="appBar__navItem" href="menu.html">Menu</a>
+        <a class="appBar__navItem" href="contact.html">Contact</a>
       </nav>
     </header>
     <main>
-      <div>
+      <div class="cta_banner cta_banner_top">
         <p>Commandez maintenant !</p>
-        <a href="contact.html">Click & Collect</a>
+        <a href="contact.html" class="click_and_collect cta_banner_link">Click & Collect</a>
       </div>
       <section>
         <h2>Nos adresses</h2>
@@ -55,7 +63,7 @@
           </p>
         </div>
       </section>
-      <section>
+      <section class="contact">
         <h2>Contactez-nous</h2>
         <p>
           Vous souhaitez nous poser une question, nous faire un feedback, ou

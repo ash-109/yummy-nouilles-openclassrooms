@@ -1,0 +1,16 @@
+.click_and_collect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13.5rem;
+    height: 3.5rem;
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--title-font);
+    font-size: var(-title-font-size);
+    font-weight: var(--title-font-weight);
+}
+.cta_banner_link:hover{
+     background: var(--white);
+     color: var(--red-highlight);
+}
