@@ -1,5 +1,5 @@
 
-https://ash-109.github.io/yummy-nouilles-openclassrooms/
+https://ash-109.github.io/yummy-nouilles-openclassrooms/home
 
 # yummy-nouilles-openclassrooms
 Design et intégration du projet yummy nouilles.
