@@ -31,9 +31,7 @@
 
 }
 .adress_gallery{
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 3.5rem; */
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,18 +41,27 @@
     width: 72.375rem;
 height: 6.25rem;
 flex-shrink:0;}
+.savoir-faire h2{
+    margin-bottom: 1rem;
+}
 
 .socials{
+    margin-top: 6.5rem ;
     margin-left: auto;
     margin-right: auto;
     width: 55rem;
 }
 .socials-gallery{
+    margin-top: 2.25rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 4rem;
 }
 .contact{
-    margin: 4.5rem 12rem;
+    margin: 4.5rem 13rem;
     text-align: center;
+}
+.contact p{
+    font-size:var(--body-font-size);
+    line-height: var(--body-line-height);
 }
