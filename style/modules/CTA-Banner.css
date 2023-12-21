@@ -9,11 +9,11 @@
   justify-content: center;
  
 }
-.banner_text{
-  margin: 3.75rem ;
 
-}
 .cta_banner p{
+  line-height: 0;
+  margin-top: 3.75rem;
+  margin-bottom: 1rem;
   color: var(--white);
   font-weight: var(--body-highlight-font-weight);
 }

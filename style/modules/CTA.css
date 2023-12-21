@@ -14,3 +14,7 @@
      background: var(--white);
      color: var(--red-highlight);
 }
+.cta_banner_link{
+    margin-top: 1rem;
+    margin-bottom: 3.75rem;
+}

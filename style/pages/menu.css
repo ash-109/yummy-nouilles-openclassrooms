@@ -1,24 +1,56 @@
-
-/* .appBar__navItem:nth-child(2) {
-  text-decoration: underline var(--red-highlight);
-  text-underline-offset: 0.25rem;
-  text-decoration-thickness: 0.188rem;
-} */
-.container{
-text-align: center;
-margin: 0 auto ;
+body{
+  width: 100%;
+  padding: 0;margin: 0;
 }
-.container_content {
+.menu{
+  padding: 0;
+  margin-top: 2.5rem;
+
+}
+.menu_header{
+  width: 71rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  margin-left: 12rem;
+  /* height: 6.5rem; */
+}
+.menu_header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.menu_header p{
+  margin-top: 0;
+}
+.menu_content {
+  padding-top: 4rem;
+  padding-bottom: 4.5rem;
   background: var(--white);
-  width: 70.625rem;
+  width: 71rem;
   height: 100rem;
   margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+} 
+.menu_content img{
+  width: 8rem;
+  height: 8rem;
 }
-.container_text{
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-}
-.container_text p span{
+
+
+
+.menu_header p span{
   color: var(--red-highlight);
 }
+.menu_content p{
+  line-height: 2.5rem;
+}
+.entrees, .plats, .desserts{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+} 
