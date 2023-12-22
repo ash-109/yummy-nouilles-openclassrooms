@@ -4,8 +4,7 @@ body{
 }
 .menu{
   padding: 0;
-  margin-top: 2.5rem;
-
+margin: 2.5rem auto 4.5rem auto;
 }
 .menu_header{
   width: 71rem;
@@ -39,13 +38,16 @@ body{
   width: 8rem;
   height: 8rem;
 }
-
+.menu_content h2{
+  font-size: 1.7rem;
+}
 
 
 .menu_header p span{
   color: var(--red-highlight);
 }
 .menu_content p{
+  /* font-size: 1rem; */
   line-height: 2.5rem;
 }
 .entrees, .plats, .desserts{
