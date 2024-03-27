@@ -32,9 +32,8 @@
 
 @media (max-width: 768px) {
     .appBar {
-      padding-left: 0;
-      padding-right: 0;
       justify-content: center;
+      margin: 1rem 0;
     }
   
     .appBar__icon {
