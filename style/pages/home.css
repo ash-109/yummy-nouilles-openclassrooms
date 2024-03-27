@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: 100%;
     margin-top: 6.5rem;
 }
 .hero_text{
@@ -24,44 +25,76 @@
 
 }
 .adress{
-    width: 71rem;
+    width: 100%;
     margin: 14rem auto 4.5rem auto;
-    margin-left: auto;
-    margin-right: auto;
-
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+gap: 1.5rem;
 }
 .adress_gallery{
     
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
 }
 .savoir-faire{
     margin: 2.25rem auto 4rem auto;
-    width: 72.375rem;
-height: 6.25rem;
-flex-shrink:0;}
+    width: 80%;
+height: auto;
+flex-shrink:0;
+text-align: justify;
+
+}
+
+
 .savoir-faire h2{
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .socials{
-    margin-top: 6.5rem ;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55rem;
+    margin: 6.5rem auto ;
+    
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+
 }
 .socials-gallery{
     margin-top: 2.25rem;
+    gap: 2.5rem;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 4rem;
+    grid-template-columns: repeat(auto-fill,248px);
+    max-width: 70%;
 }
 .contact{
-    margin: 4.5rem 13rem;
+    margin: 4.5rem 2rem;
     text-align: center;
 }
 .contact p{
     font-size:var(--body-font-size);
     line-height: var(--body-line-height);
+}
+
+@media screen and (max-width:900px) {
+    .hero{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+        gap: 2rem;
+
+    }
+    .hero_text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
 }
