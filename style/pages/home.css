@@ -26,7 +26,7 @@
 }
 .adress{
     width: 100%;
-    margin: 14rem auto 4.5rem auto;
+    margin: 11rem auto 4.5rem auto;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -38,11 +38,12 @@ gap: 1.5rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 2rem;
+    width: 80%;
 }
 .savoir-faire{
     margin: 2.25rem auto 4rem auto;
-    width: 80%;
+    width: 70%;
 height: auto;
 flex-shrink:0;
 text-align: justify;
@@ -72,22 +73,15 @@ align-items: center;
     grid-template-columns: repeat(auto-fill,248px);
     max-width: 70%;
 }
-.contact{
-    margin: 4.5rem 2rem;
-    text-align: center;
-}
-.contact p{
-    font-size:var(--body-font-size);
-    line-height: var(--body-line-height);
-}
+
 
 @media screen and (max-width:900px) {
     .hero{
 flex-direction: column;
 justify-content: center;
 align-items: center;
-        gap: 2rem;
-margin: 1rem auto;
+        gap: 3rem;
+margin: 2rem auto;
     }
 
     .hero_text{

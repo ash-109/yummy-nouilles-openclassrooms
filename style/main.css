@@ -39,7 +39,8 @@
     --header-line-height: 5.375rem;
     --title-line-height: 1.75rem;
 
-    scrollbar-width: none;
+    scrollbar-width: none; 
+    
 }
 
 
@@ -87,6 +88,15 @@ text-align: center;
 a{
     text-decoration: none;
     color: var(--black);
+}
+.contact{
+    margin: 4.5rem auto;
+    text-align: center;
+    width: 70%;
+}
+.contact p{
+    font-size:var(--body-font-size);
+    line-height: var(--body-line-height);
 }
 
 @media (max-width: 768px) {
