@@ -1,11 +1,12 @@
 .adresses {
-  width: 80%;
-  margin: 6rem auto 6rem auto;
+  width: 100%;
+  margin: 6rem auto ;
 }
 
 .adresses h2 {
+  text-align: center;
   text-decoration: none;
-  font-size: 4.5rem;
+  font-size: 3rem;
 line-height: 0;
 line-height:var(--title-line-height) ;
     text-decoration: underline var(--red-highlight);
@@ -17,8 +18,10 @@ text-decoration-thickness: 0.3rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 2rem;   
+     font-size: 1.5rem;
+     line-height: 1.85rem;
+     margin: 0 auto;
+
 }
-.resto{
-    font-size: 1.5rem;
-}
+

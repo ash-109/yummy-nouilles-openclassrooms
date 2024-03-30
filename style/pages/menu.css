@@ -47,7 +47,7 @@ body {
 }
 .entrees,
 .plats,
-.desserts {
+.desserts, .boissons {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
