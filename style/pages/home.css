@@ -37,8 +37,12 @@ gap: 1.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    gap: 5rem;
+    align-content: center;
+    row-gap: 2.5rem;
+    
 }
 .adress  p{
 
@@ -95,6 +99,7 @@ margin: 2rem auto;
         justify-content: center;
         padding: 0;
     }
+    
     .adress, .socials{
         margin-top: 2rem;
     }
