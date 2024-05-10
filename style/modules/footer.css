@@ -6,7 +6,11 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    gap: 3rem;
 }
-footer a{
-    margin-right:4.5rem;
+@media screen and (max-width:900px){
+    footer{
+        justify-content: center;
+        
+    }
 }

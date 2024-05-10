@@ -103,7 +103,9 @@ margin: 2rem auto;
     .adress, .socials{
         margin-top: 2rem;
     }
-
+.adress_gallery p{
+    text-align: center;
+}
     .socials-gallery{
         display: flex;
         flex-wrap: wrap;
