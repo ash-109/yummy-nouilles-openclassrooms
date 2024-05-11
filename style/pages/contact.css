@@ -1,12 +1,12 @@
 .adresses {
   width: 100%;
-  margin: 6rem auto ;
+  margin: 4rem auto ;
 }
 
 .adresses h2 {
   text-align: center;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2.5rem;
 line-height: 0;
 line-height:var(--title-line-height) ;
     text-decoration: underline var(--red-highlight);
