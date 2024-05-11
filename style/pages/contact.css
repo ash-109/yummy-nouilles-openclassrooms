@@ -9,9 +9,9 @@
   font-size: 2.5rem;
 line-height: 0;
 line-height:var(--title-line-height) ;
-    text-decoration: underline var(--red-highlight);
+    text-decoration: underline 0.3rem var(--red-highlight);
     text-underline-offset: 0.5rem;
-text-decoration-thickness: 0.3rem;
+/* text-decoration-thickness: 0.3rem; */
 }
 .resto{
     display: flex;
