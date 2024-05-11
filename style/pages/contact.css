@@ -24,4 +24,13 @@ text-decoration-thickness: 0.3rem;
      margin: 0 auto;
 
 }
+@media screen and (max-width:900px){
+  .resto{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .resto strong{
+    font-size: 1.2rem;
+  }
+}
 
